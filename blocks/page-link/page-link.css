@@ -1,0 +1,11 @@
+.page-link {
+  color: #fff;
+  opacity: 1;
+  text-decoration: none;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.page-link:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
