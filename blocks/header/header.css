@@ -1,17 +1,21 @@
 .header {
   box-sizing: border-box;
-  width: 90%;
+  width: 92.5%;
   padding-top: 28px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-height: 52px;
   min-height: 42px;
+}
+@media screen and (max-width: 1024px) {
+  .header {
+    width: 90.625%;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .header {
-    width: 93.5%;
+    width: 93.75%;
   }
 }
 

@@ -7,21 +7,20 @@
 
 @media screen and (max-width: 1024px) {
   .intro {
-    width: 90.7%;
+    max-width: 90.7%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-    width: 94%;
+    max-width: 94%;
     padding-top: 88px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro {
-    width: 90%;
-    padding-top: 48px;
-    margin: 0 16px 0 16px;
+    max-width: 90%;
+    padding-top: 64px;
   }
 }
